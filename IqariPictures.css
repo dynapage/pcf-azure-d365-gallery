@@ -1,0 +1,108 @@
+.iqari-image-uploader-wrapper.modern-d365 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+}
+
+/* Command bar for top-level actions */
+.d365-command-bar {
+  display: flex;
+  align-items: center;
+  background-color: #f3f2f1;
+  padding: 0.5rem;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+.d365-command-bar button {
+  background-color: #0078d4;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.d365-command-bar button:hover {
+  background-color: #005a9e;
+}
+
+.iqari-image-grid.modern-d365-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.iqari-image-slot.modern-d365-slot {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #f3f2f1;
+  border-radius: 2px;
+}
+
+.iqari-image-preview.modern-d365-image {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 0.5rem;
+  background-color: #f3f2f1;
+}
+
+/* Secondary button style for Replace/Delete */
+.d365-secondary-button {
+  background-color: #ffffff;
+  color: #323130;
+  border: 1px solid #8a8886;
+  padding: 6px 12px;
+  margin: 0.25rem;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 0.8rem;
+}
+
+.d365-secondary-button:hover {
+  background-color: #f3f2f1;
+}
+
+.notification-area.modern-d365-notification {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 2px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.notification-area.info {
+  background-color: #e1f3fb;
+  color: #005b96;
+}
+
+.notification-area.success {
+  background-color: #dff6dd;
+  color: #107c10;
+}
+
+.notification-area.error {
+  background-color: #fde7e9;
+  color: #a80000;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #f3f2f1;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.progress-fill {
+  height: 8px;
+  background-color: #0078d4;
+  width: 0%;
+  transition: width 0.2s ease;
+}

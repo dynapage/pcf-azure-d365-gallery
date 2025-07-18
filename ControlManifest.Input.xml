@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="Iqari" constructor="IqariPictures" version="1.0.11" display-name-key="IqariPictures" description-key="IqariPictures description" control-type="standard" >
+    <external-service-usage enabled="false" />
+    <property name="PropertyID" display-name-key="Property_Name_29" description-key="Property_Code" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="SasToken" display-name-key="SasToken" description-key="SasToken" of-type="Multiple" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="IqariPictures.css" order="1" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
